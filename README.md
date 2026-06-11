@@ -1,21 +1,28 @@
-# Student Record System
-A lightweight, interactive command-line application built in Python to seamlessly manage student academic records. 
+# My Python Engineering Projects
+A collection of clean, functional backend command-line applications built to master data tracking, data structures, and file system automation.
 
-## 🚀 Key Features
-* **Dynamic Record Creation**: Add student profiles with names and associated numerical marks.
-* **Instant Data Retrieval**: View a cleanly formatted master list of all registered students and scores.
-* **Targeted Search**: Instantly query individual student grades by typing their name.
-* **Robust Flow Control**: Uses an efficient main menu loop with clear exit criteria.
+---
 
-## 🛠️ Technical Stack
+## 📁 Project 1: Student Record System (`student_record.py`)
+An interactive system to seamlessly manage student academic scores using in-memory data structures.
+* **Core Concepts:** Dictionaries (Key-Value lookup), Loop Control, Conditionals.
+
+## 📁 Project 2: Contact Manager with File Storage (`contact_manager.py`)
+An application that reads and writes contact details directly to a persistent text file on your local disk.
+* **Core Concepts:** Advanced File I/O (`open()`, read, write), String Parsing (`split()`), Local Persistence.
+
+---
+
+## 🛠️ Combined Tech Stack
 * **Language:** Python 3.x
-* **Core Concepts:** Dictionaries (Key-Value pairing), While Loops, Conditional Logic (`if-elif-else`), User Input Sanitization.
+* **Version Control:** Git & GitHub
 
-## 💻 How To Run
-1. Ensure you have Python installed on your computer.
-2. Clone this repository to your machine.
-3. Open your terminal or command prompt in this directory.
-4. Run the application using:
+## 💻 How To Run Any Project
+1. Clone this repository.
+2. Open your terminal in this directory.
+3. Run either file using your command line:
    ```bash
    python student_record.py
+   # OR
+   python contact_manager.py
    ```
